@@ -8,12 +8,17 @@ const App = () => {
     setText(event.currentTarget.value);
   };
 
+  marked.setOptions({ breaks: true });
+
   return (
     <div>
       <h1>Markdown Previewer</h1>
       <textarea id="editor" value={text} onChange={handleChange} />
 
-      <div id="preview"></div>
+      <div
+        id="preview"
+        dangerouslySetInnerHTML={{ __html: marked(text) }}
+      ></div>
     </div>
   );
 };
