@@ -1,44 +1,110 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Contribuyentes][contribuyentes-shield]][contribuyentes-enlace]
+[![Forks][forks-shield]][forks-enlace]
+[![Estrellas][estrellas-shield]][estrellas-enlace]
+[![Incidencias][incidencias-shield]][incidencias-enlace]
+[![Licencia][licencia-shield]][licencia-enlace]
+[![LinkedIn][linkedin-shield]][linkedin-enlace]
 
-## Available Scripts
+<!-- Logotipo del proyecto -->
+<br />
+<p align="center">
+  <a href="https://github.com/fonsovariz/previsualizador-de-markdown/">
+    <img src="./public/markdown.png" alt="Logotipo" >
+  </a>
+  
+  <h3 align="center">Previsualizador de Markdown</h3>
 
-In the project directory, you can run:
+  <p align="center">
+    Una aplicación web para previsualizar Markdown en tiempo real.
+    <br />
+    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/blob/main/README_en.md"><strong>README in English »</strong></a>
+    <br />
+    <br />
+    <a href="https://previsualizador-markdown.vercel.app/">Ver demostración</a>
+    ·
+    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/issues">Informar sobre un error</a>
+    ·
+    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/issues">Solicitar función</a>
+  </p>
+</p>
 
-### `npm start`
+<!-- Tabla de contenido -->
+<details open="open">
+  <summary>Tabla de contenido</summary>
+  <ol>
+    <li>
+      <a href="#acerca-del-proyecto">Acerca del proyecto</a>
+      <ul>
+        <li><a href="#desarrollado-con">Desarrollado con</a></li>
+      </ul>
+    </li>
+    <li><a href="#como-contribuir">Cómo contribuir</a></li>
+    <li><a href="#licencia">Licencia</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+    <li><a href="#reconocimientos">Reconocimientos</a></li>
+  </ol>
+</details>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<!-- Acerca del proyecto -->
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Acerca del proyecto
 
-### `npm test`
+[![Captura de pantalla de Previsualizador de Markdown][captura-previsualizador]](https://previsualizador-markdown.vercel.app/)
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Esta aplicación web es una herramienta desarrollada para facilitar la creación de documentos Markdown. Es bastante sencillo utilizarla: sólo escribé tu texto Markdown en el panel de la izquierda y el panel de la derecha mostrará una vista previa del documento renderizado. Por defecto, la aplicación carga con una guía de sintaxis para facilitar su uso.
 
-### `npm run build`
+### Desarrollado con
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [React](https://reactjs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Ant Design](https://ant.design/)
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+<!-- Cómo contribuir -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h2 id="como-contribuir">Cómo contribuir</h2>
 
-### `npm run eject`
+Las contribuciones son lo que hace que la comunidad de código abierto sea un lugar increíble para aprender, inspirar y crear. Cualquier contribución que hagas es **enormemente apreciada**.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. Haz un _fork_ del proyecto.
+2. Crea una rama de función: (`git checkout -b funcion/FuncionIncreible`).
+3. Haz un _commit_ de tus cambios: (`git commit -m 'Añadir una FuncionIncreible'`).
+4. Sube tus cambios a la rama: (`git push origin feature/FuncionIncreible`)
+5. Abre un _pull request_.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- Licencia -->
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Licencia
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Distribuido bajo la licencia MIT. Vea el archivo `LICENSE` para más información.
 
-## Learn More
+<!-- Contacto -->
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contacto
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Alfonso Javariz - [Twitter](https://twitter.com/fonsovariz) - [LinkedIn][linkedin-enlace]
+
+Enlace al proyecto: [https://github.com/fonsovariz/previsualizador-de-markdown/](https://github.com/fonsovariz/previsualizador-de-markdown/)
+
+<!-- Reconocimientos -->
+
+## Reconocimientos
+
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Marked](https://marked.js.org/)
+- [DOMPurify](https://github.com/cure53/DOMPurify)
+
+<!-- Enlaces e imagenes -->
+
+[contribuyentes-shield]: https://img.shields.io/github/contributors/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
+[contribuyentes-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
+[forks-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/network/members
+[estrellas-shield]: https://img.shields.io/github/stars/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
+[estrellas-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/stargazers
+[incidencias-shield]: https://img.shields.io/github/issues/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
+[incidencias-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/issues
+[licencia-shield]: https://img.shields.io/github/license/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
+[licencia-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/blob/main/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-enlace]: https://linkedin.com/in/fonsovariz
+[captura-previsualizador]: ./public/previewer-screenshot.png
