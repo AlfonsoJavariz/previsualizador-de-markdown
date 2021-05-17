@@ -17,7 +17,7 @@
   <p align="center">
     Una aplicación web para previsualizar Markdown en tiempo real.
     <br />
-    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/blob/main/README_en.md"><strong>README in English »</strong></a>
+    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/blob/master/README_en.md"><strong>README in English »</strong></a>
     <br />
     <br />
     <a href="https://previsualizador-markdown.vercel.app/">Ver demostración</a>
@@ -104,7 +104,7 @@ Enlace al proyecto: [https://github.com/fonsovariz/previsualizador-de-markdown/]
 [incidencias-shield]: https://img.shields.io/github/issues/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
 [incidencias-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/issues
 [licencia-shield]: https://img.shields.io/github/license/fonsovariz/previsualizador-de-markdown.svg?style=for-the-badge
-[licencia-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/blob/main/LICENSE
+[licencia-enlace]: https://github.com/fonsovariz/previsualizador-de-markdown/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-enlace]: https://linkedin.com/in/fonsovariz
 [captura-previsualizador]: ./public/previewer-screenshot.png
