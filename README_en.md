@@ -17,7 +17,7 @@
   <p align="center">
     A web application for previewing Markdown in real time.
     <br />
-    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/blob/master/README.md"><strong><span style="font-style: italic">README</span> en español »</strong></a>
+    <a href="https://github.com/fonsovariz/previsualizador-de-markdown/blob/master/README.md"><strong><span style="font-style: italic">README</span> en castellano »</strong></a>
     <br />
     <br />
     <a href="https://markdownpreviewer.vercel.app/">View Demo</a>
